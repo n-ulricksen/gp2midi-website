@@ -37,16 +37,16 @@ To run development server:
 yarn start
 ```
 
-To build static assets (to `public/`):
-
-```sh
-yarn build
-```
-
 Check out the running application at
 
 ```
 localhost:3000
+```
+
+To build static assets (to `public/`):
+
+```sh
+yarn build
 ```
 
 ## Contributing
