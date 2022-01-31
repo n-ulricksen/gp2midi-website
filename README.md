@@ -1,7 +1,8 @@
 # gp2midi website
 
-Website for gp2midi.com built with React.js and styled-components. Convert Guitar
-Pro files to midi, useful for creating backing/jam tracks.
+Website for gp2midi.com built with React.js and styled-components. 
+
+Convert Guitar Pro files to midi, useful for creating backing/jam tracks.
 
 ![demo](media/gp2midi.gif)
 
