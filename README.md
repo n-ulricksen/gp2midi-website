@@ -19,7 +19,7 @@ this project locally.
 Clone the repo:
 
 ```sh
-git clone https://github.com/n-ulricksen/gp2midi-web
+git clone https://github.com/n-ulricksen/gp2midi-website
 cd gp2midi-website
 ```
 
