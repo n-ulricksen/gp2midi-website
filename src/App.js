@@ -11,12 +11,15 @@ import Converter from './components/Converter'
 import Footer from './components/Footer'
 import './App.css'
 
-const API_URL = "https://fast-river-62884.herokuapp.com/compute"
+const API_URL_PROD = "https://fast-river-62884.herokuapp.com/compute"
+const API_URL_DEV  = "http://127.0.0.1:8229/compute" 
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null)
   const [isProcessing, setIsProcessing] = useState(false)
   const [midiFile, setMidiFile] = useState(null)
+
+  const API_URL = process.env.NODE_ENV === "production" ? API_URL_PROD : API_URL_DEV
 
   const uploadFile = () => {
     setIsProcessing(true)
