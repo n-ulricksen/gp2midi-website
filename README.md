@@ -43,7 +43,7 @@ Check out the running application at
 localhost:3000
 ```
 
-To build static assets (to `public/`):
+To build static assets (to `build/`):
 
 ```sh
 yarn build
